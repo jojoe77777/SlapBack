@@ -1,0 +1,7 @@
+name: SlapBack
+main: jojoe77777\SlapBack\Main
+version: 1.0.0
+api: [3.0.0-ALPHA6]
+author: jojoe77777
+description: Slappers now hit back at you!
+depend: [Slapper]
