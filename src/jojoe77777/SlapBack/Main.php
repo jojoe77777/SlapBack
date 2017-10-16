@@ -17,7 +17,7 @@ class Main extends PluginBase implements Listener {
     public function onSlapperHit(SlapperHitEvent $ev){
     	$entity = $ev->getEntity();
     	if(!$entity instanceof SlapperHuman){
-    		return;
+    	    return;
 	}
     	$pk = new AnimatePacket();
     	$pk->entityRuntimeId = $entity->getId();
