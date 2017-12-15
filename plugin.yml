@@ -1,7 +1,7 @@
 name: SlapBack
 main: jojoe77777\SlapBack\Main
 version: 1.0.0
-api: [3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9]
+api: [3.0.0-ALPHA6, 3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
 author: jojoe77777
 description: Slappers now hit back at you!
 depend: [Slapper]
