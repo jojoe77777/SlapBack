@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener{
 		}
 		$pk = new AnimatePacket();
 		$pk->entityRuntimeId = $entity->getId();
-		$pk->action = 1;
+		$pk->action = AnimatePacket::ACTION_SWING_ARM;
 		$ev->getDamager()->dataPacket($pk);
 	}
 
